@@ -176,81 +176,121 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media (max-width: 450px) {
   .big-picture-text {
-    left: 5%;
-  }
-
-  .image-1 {
-    margin-right: 3rem;
-  }
-
-  .container1 {
-    max-width: 90%;
-  }
-
-  .box1 {
-    flex: 1;
-    height: 23rem;
-    margin-right: 2rem;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-  .big-picture-text {
-    left: 10%;
-  }
-
-  .image-1 {
-    margin-right: 2rem;
-  }
-
-  .container1 {
-    max-width: 80%;
-  }
-
-  .box1 {
-    flex: 1;
-    height: 20rem;
-    margin-right: 1rem;
+      top: 20%;
+      left: 10px;
   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
   .big-picture-text {
-    left: 5%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      font-size: 16px;
   }
+}
 
-  .image-1 {
-    margin-right: 0;
+@media (max-width: 1024px) {
+  .big-picture-text {
+      top: 70%;
+      left: 30%;
+      transform: translate(-30%, -70%);
+      padding: 8px 16px;
+      font-size: 14px;
   }
+}
 
-  .content {
-    flex-direction: column;
-  }
+@media (max-width: 450px) {
+    .right-content {
+        margin-top: 1rem;
+    }
+    .image-1 {
+        margin-right: 0;
+    }
+}
 
-  .left-content, .right-content {
-    padding: 10px;
-  }
 
-  .image-1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    max-width: 100%;
-    height: auto;
-    margin-right: 0;
-  }
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .left-content, .right-content {
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 1024px) {
+    .image-1 {
+        max-width: 50%;
+    }
+}
 
+@media (max-width: 450px) {
   .container1 {
-    max-width: 100%;
-    flex-direction: column;
+    max-width: 90%; 
   }
 
   .box1 {
     flex: 1;
-    height: 15rem;
-    margin: 10px 0;
+    height: 20rem; 
+    margin-bottom: 1rem; 
+} }
+
+
+@media (max-width: 768px) {
+  .container1 {
+    max-width: 80%; 
   }
+
+  .box1 {
+    flex: 1;
+    height: 18rem; 
+}
+}
+
+@media (max-width: 1024px) {
+  .container1 {
+    max-width: 90%; }
+
+  .box1 {
+    flex: 1;
+    height: 23rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+      max-height: unset; 
+  }
+  
+  .chart {
+      width: 100%; 
+      max-width: none; 
+  }
+
+  .chart-img-container {
+      width: 100%; 
+      max-width: none; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .chart p {
+      font-size: 14px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .box {
+    width: 45%; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .box {
+    width: 30%; }
 }
