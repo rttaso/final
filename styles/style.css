@@ -82,7 +82,107 @@ font-size: 16px;
     background: #FFF;
     backdrop-filter: blur(40px);
 }
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 30rem;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .chart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chart p {
+    margin-bottom: 10px;
+  }
+  
+  .perc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rect {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .chart img {
+    max-width: 100%;
+  }
+  
+  .chart-img-container {
+    width: 50%;
+  }
+  
+  .chart-img-container img {
+    max-width: 100%;
+    display: block;
+  }
 
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+    margin-top:3rem;
+  
+  }
+
+  .left-content p 
+{
+    color: #525560;
+}
+
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .image-1 {
+    margin-top:3rem;
+    margin-bottom:3rem;
+    max-width: 35%; 
+    height: auto;
+    margin-right: 10rem;
+    border-radius: 12px;
+  }
+  
+.green-button {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.green-button:hover {
+  background-color: darkgreen;
+}
+
+  
 .team {
   margin: 0;
   padding: 0;
@@ -238,7 +338,7 @@ backdrop-filter: blur(40px);
     border: none;
     cursor: pointer;
 padding: 16px 32px;
-display: flex; /* This allows the justify-content property to work */
+display: flex; 
 justify-content: center;
 }
 
@@ -531,3 +631,4 @@ a.link {
 a.link:hover {
   text-decoration: underline; 
 }
+
